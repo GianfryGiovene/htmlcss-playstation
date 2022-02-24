@@ -9,7 +9,7 @@
 }
 
 [class*="row"] {
-  border: 1px dashed yellow;
+  border: 1px dashed black;
 }
 
 /* / GENERICS */
