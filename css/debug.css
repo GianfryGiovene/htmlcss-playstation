@@ -1,0 +1,15 @@
+/* GENERICS */
+
+[class*="container"] {
+  border: 1px dashed green;
+}
+
+[class*="col"] {
+  border: 1px dashed red;
+}
+
+/* / GENERICS */
+
+.debug-img {
+  border: 1px solid blue;
+}

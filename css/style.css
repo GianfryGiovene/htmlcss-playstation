@@ -2,7 +2,32 @@
 /* / Generics */
 
 /* Utilities */
+
+/* lenghts */
+
+.gfg-w-10 {
+  width: 15px;
+}
+
+.gfg-w-25 {
+  width: 25px;
+}
+
+.gfg-w-35 {
+  width: 60px;
+}
+
+.gfg-w-130 {
+  width: 130px;
+}
+
+.gfg-rad-20 {
+  border-radius: 20px;
+}
+/* / lenghts */
+
 /* / Utilities */
 
 /* Content */
+
 /* / Content */
