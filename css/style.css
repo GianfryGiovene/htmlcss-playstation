@@ -30,4 +30,16 @@
 
 /* Content */
 
+/* MAIN */
+#jumbo-tron {
+  background-image: url("../img/jumbo-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#jumbo-tron div.row {
+  min-height: 600px;
+}
+/* / MAIN */
+
 /* / Content */
