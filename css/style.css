@@ -31,15 +31,23 @@
 /* Content */
 
 /* MAIN */
+
+/* jumbo-tron */
 #jumbo-tron {
   background-image: url("../img/jumbo-bg.png");
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
 #jumbo-tron div.row {
   min-height: 600px;
 }
+
+#choises img {
+  border-radius: 20px;
+}
+/* / jumbo-tron */
+
 /* / MAIN */
 
 /* / Content */
