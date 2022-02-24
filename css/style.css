@@ -48,6 +48,15 @@
 }
 /* / jumbo-tron */
 
+/* takes two */
+#takestwo {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* / takes two */
+
 /* / MAIN */
 
 /* / Content */
