@@ -1,7 +1,7 @@
 /* GENERICS */
 
 [class*="container"] {
-  border: 1px dashed green;
+  border: 1px dashed #0dcaf0;
 }
 
 [class*="col"] {
@@ -9,7 +9,7 @@
 }
 
 [class*="row"] {
-  border: 1px dashed black;
+  border: 1px dashed pink;
 }
 
 /* / GENERICS */

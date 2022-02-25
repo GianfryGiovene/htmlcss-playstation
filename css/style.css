@@ -24,6 +24,10 @@
 .gfg-rad-20 {
   border-radius: 20px;
 }
+
+.gfg-rad-30 {
+  border-radius: 30px;
+}
 /* / lenghts */
 
 /* / Utilities */
@@ -40,7 +44,7 @@
 }
 
 #jumbo-tron div.row {
-  min-height: 600px;
+  min-height: 650px;
 }
 
 #choises img {
@@ -48,18 +52,25 @@
 }
 /* / jumbo-tron */
 
-/* takes two */
+/* third section */
 #takestwo {
   background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* / takes two */
+/* / third section */
+
+/* fourth section */
+#incrediblegame {
+  background-color: #1f1f1f;
+}
 
 #incrediblegame img {
   border-radius: 20px;
 }
+
+/* / fourth section */
 /* / MAIN */
 
 /* / Content */
