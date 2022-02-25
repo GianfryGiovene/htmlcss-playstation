@@ -1,7 +1,7 @@
 /* GENERICS */
 
 [class*="container"] {
-  border: 1px dashed #0dcaf0;
+  border: 1px dashed black;
 }
 
 [class*="col"] {
