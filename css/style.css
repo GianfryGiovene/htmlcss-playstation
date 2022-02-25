@@ -36,11 +36,37 @@
 }
 /* / fonts syze */
 /* / Utilities */
+/* bootstrap personal */
+.dropdown-menu {
+  min-width: none;
+  width: 100%;
+  left: 0;
+}
 
 /* Content */
 
 /* MAIN */
+/* header */
+header {
+  position: sticky;
+  top: 0;
+}
 
+li:hover .dropdown-menu {
+  display: list-item;
+}
+
+/* bullets color */
+.dropdown-menu ul li::before {
+  content: "\2022";
+  color: #0070d1;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+/* / bullets color */
+/* / header */
 /* jumbo-tron */
 #jumbo-tron {
   background-image: url("../img/jumbo-bg.png");
