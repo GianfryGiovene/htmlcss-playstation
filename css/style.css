@@ -35,6 +35,28 @@
   font-size: 2.7em;
 }
 /* / fonts syze */
+
+/* buttons skin */
+.gfg_button_hover_red:hover {
+  border: 1px solid white;
+  box-shadow: 0 0 0px 3px #7b1616;
+}
+
+.gfg_button_hover_black:hover {
+  border: 1px solid red;
+  box-shadow: 0 0 0px 3px grey;
+}
+
+.gfg_button_hover_blue:hover {
+  border: 1px solid greenyellow;
+  box-shadow: 0 0 0px 3px #3629cd;
+}
+
+.gfg_button_hover_white:hover {
+  border: 1px solid #0070d1;
+  box-shadow: 0 0 0px 3px #acacac;
+}
+/* / buttons skin */
 /* / Utilities */
 
 /* bootstrap customs */
@@ -166,23 +188,3 @@ footer {
 /* / FOOTER */
 
 /* / Content */
-
-.gfg_button_hover_red:hover {
-  border: 1px solid white;
-  box-shadow: 0 0 0px 3px #7b1616;
-}
-
-.gfg_button_hover_black:hover {
-  border: 1px solid red;
-  box-shadow: 0 0 0px 3px grey;
-}
-
-.gfg_button_hover_blue:hover {
-  border: 1px solid greenyellow;
-  box-shadow: 0 0 0px 3px #3629cd;
-}
-
-.gfg_button_hover_white:hover {
-  border: 1px solid #0070d1;
-  box-shadow: 0 0 0px 3px #acacac;
-}
