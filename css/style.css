@@ -83,7 +83,7 @@ li:hover .dropdown-menu {
 /* jumbo-tron */
 #jumbo-tron {
   background-image: url("../img/jumbo-bg.png");
-
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
