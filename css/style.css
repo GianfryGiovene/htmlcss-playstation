@@ -36,17 +36,20 @@
 }
 /* / fonts syze */
 /* / Utilities */
-/* bootstrap personal */
+
+/* bootstrap customs */
+
 .dropdown-menu {
   min-width: none;
   width: 100%;
   left: 0;
 }
 
+/* / bootstrap customs */
+
 /* Content */
 
-/* MAIN */
-/* header */
+/****** HEADER ******/
 header {
   position: sticky;
   top: 0;
@@ -56,6 +59,14 @@ li:hover .dropdown-menu {
   display: list-item;
 }
 
+.gfg_play_menu:hover {
+  border: 1px solid grey;
+}
+
+.gfg_link_menu:hover {
+  text-decoration: underline;
+  color: #0070d1;
+}
 /* bullets color */
 .dropdown-menu ul li::before {
   content: "\2022";
@@ -66,7 +77,9 @@ li:hover .dropdown-menu {
   margin-left: -1em;
 }
 /* / bullets color */
-/* / header */
+/**** / HEADER ****/
+
+/***** MAIN *****/
 /* jumbo-tron */
 #jumbo-tron {
   background-image: url("../img/jumbo-bg.png");
@@ -81,8 +94,37 @@ li:hover .dropdown-menu {
 #choises img {
   border-radius: 20px;
 }
+
+/* choise */
+.choise_hover:hover {
+  transform: translateY(-25px);
+}
+.gfg_thumnail:hover {
+  border: 3px solid #0070d1;
+  padding: 2px;
+}
+
+.choise_hover {
+  transition: transform 1s;
+}
+
+/* / choise */
 /* / jumbo-tron */
 
+/* second section */
+.gfg_hover_opacity {
+  opacity: 0.5;
+  transition: opacity 1s;
+}
+
+.gfg_hover_opacity:hover {
+  opacity: 1;
+}
+
+.gfg_border_hover:hover {
+  border-bottom: 3px solid #0070d1;
+}
+/* / second section */
 /* third section */
 #takestwo {
   background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -123,3 +165,23 @@ footer {
 /* / FOOTER */
 
 /* / Content */
+
+.gfg_button_hover_red:hover {
+  border: 1px solid white;
+  box-shadow: 0 0 0px 3px #7b1616;
+}
+
+.gfg_button_hover_black:hover {
+  border: 1px solid red;
+  box-shadow: 0 0 0px 3px grey;
+}
+
+.gfg_button_hover_blue:hover {
+  border: 1px solid greenyellow;
+  box-shadow: 0 0 0px 3px #3629cd;
+}
+
+.gfg_button_hover_white:hover {
+  border: 1px solid #0070d1;
+  box-shadow: 0 0 0px 3px #acacac;
+}
