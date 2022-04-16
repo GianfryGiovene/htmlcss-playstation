@@ -63,7 +63,8 @@
 
 .dropdown-menu {
   min-width: none;
-  width: 100%;
+  width: 100vw;
+  position: static;
   left: 0;
 }
 
@@ -124,7 +125,6 @@ li:hover .dropdown-menu {
 }
 .gfg_thumnail:hover {
   border: 3px solid #0070d1;
-  padding: 2px;
 }
 
 .choise_hover {
