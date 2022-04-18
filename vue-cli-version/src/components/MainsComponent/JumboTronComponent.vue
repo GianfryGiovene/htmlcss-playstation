@@ -78,7 +78,6 @@ export default {
     methods:{
         imgPointer(p){
             this.imgPointerSaved = p
-            console.log('oooh',this.imgPointerSaved);
             return p
         }
     },
@@ -87,7 +86,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../style/general';
+@import '@/style/general';
 
     section{
         margin-top: 80px;

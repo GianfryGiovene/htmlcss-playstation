@@ -12,6 +12,7 @@
             </div>
             <img :src="jumboCarosel[parseInt(imgPointerSaved)].bkgImgPath" alt="">
         </div>
+        
         <div>
             <div  @click="imgPointer(index)" :key="index" v-for="(item,index) in jumboCarosel">
                 <img :src="item.bkgImgPath" alt="">
@@ -65,22 +66,22 @@ export default {
         }
     },
     methods:{
+        // salvo la posizione su cui ho cliccato per riutilizzarla altrove
         imgPointer(p){
             this.imgPointerSaved = p
-            console.log('oooh',this.imgPointerSaved);
             return p
         }
     },
-    
 }
 </script>
 
 <style lang="scss" scoped>
-@import '../style/general';
+@import '@/style/general';
 
     section{
             margin: 80px auto 0; 
             max-width: 1200px;
+            border: 1px solid green;
             
         & > div:first-child{
             text-align: center;
@@ -102,7 +103,6 @@ export default {
             justify-content: end;
             img{
                 width: 50%;
-
             }
             div{
                 color: $bg-black;

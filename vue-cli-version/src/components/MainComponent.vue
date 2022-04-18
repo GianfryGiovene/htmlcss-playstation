@@ -2,20 +2,27 @@
     <main>
         <div id="JumboTron-container">
             <JumboTronComponent />
+        </div>
+        <div id="section-carosel">
             <SectionCaroselComponent />
+        </div>
+        <div id="search-component">
+            <SectionFinderComponent/>
         </div>
     </main>
 </template>
 
 <script>
-import JumboTronComponent from '@/components/JumboTronComponent.vue';
-import SectionCaroselComponent from '@/components/SectionCaroselComponent.vue';
+import JumboTronComponent from './MainsComponent/JumboTronComponent.vue';
+import SectionCaroselComponent from './MainsComponent/SectionCaroselComponent.vue';
+import SectionFinderComponent from './MainsComponent/SectionFinderComponent.vue';
 
 export default {
     name:'MainComponent',
     components: {
         JumboTronComponent,
         SectionCaroselComponent,
+        SectionFinderComponent
     },
 }
 </script>
@@ -31,5 +38,4 @@ main{
         width: 100%;
     }
 }
-
 </style>

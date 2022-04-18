@@ -18,32 +18,30 @@ export default {
     return{
       navPrimary:[
         {
-            name:'Giochi',
-            clicked: false,
+          name:'Giochi',
+          clicked: false,
         },
         {
-            name:'Hardware',
-            clicked: false,
+          name:'Hardware',
+          clicked: false,
         },
         {
-            name:'Servizi',
-            clicked: false,
+          name:'Servizi',
+          clicked: false,
         },
         {
-            name:'Novità',
-            clicked: false,
+          name:'Novità',
+          clicked: false,
         },
         {
-            name:'Fai acquisti',
-            clicked: false,
+          name:'Fai acquisti',
+          clicked: false,
         },
             
         {
-            name:'Supporto',
-            clicked: false,
+          name:'Supporto',
+          clicked: false,
         }],
-
-
     }
   },
 }

@@ -7,7 +7,7 @@
             <div>
                 <img src="@/assets/play_logo.svg" alt="">
                 <ul>
-                    <li  @mouseover="item.clicked = true" @mouseleave="item.clicked = false" :key="index" v-for="(item,index) in navBar">
+                    <li @mouseover="item.clicked = true" @mouseleave="item.clicked = false" :key="index" v-for="(item,index) in navBar">
                         <div>{{ item.name }}</div>
                         <DropDownMenu v-if="item.clicked" />
                     </li>
@@ -41,51 +41,52 @@ export default {
         z-index: 10000;
         position: fixed;
         & > div:first-child{
-                background-color: $bg-black;
-                display: flex;
-                justify-content: end;
-                align-items: center;
-                img{
-                    padding: 8px 0 ;
-                    width: 100px;
-                }
+            background-color: $bg-black;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            img{
+                padding: 8px 0 ;
+                width: 100px;
+            }
         }
         & > div:last-child{
             background-color: $bg-white;
             width: 100%;
             
-                div{
+            div{
+                display: flex;
+                align-items: center;
+                
+                img{
+                    width: 50px;
+                }
+                ul{ 
                     display: flex;
                     align-items: center;
-                    
-                    img{
-                        width: 50px;
-                    }
-                    ul{ 
-                        display: flex;
-                        align-items: center;
-                        list-style-type: $remove;
-                        li{
-                            padding: 0 10px;
-                            cursor: pointer;
-                            &:hover{
-                                color: blue;
-                            }
-                            div{
-                                padding: 5px 10px ;
-                            }
-                            a{
-                                display: block;
-                                display: inline-block;
-                                text-decoration: none;
-                                padding: 5px 10px;
-                                color: $button-font-color;
-                                background-color: $bg-button-primary;
-                                border-radius: 20px;
-                            }
+                    list-style-type: $remove;
+                    li{
+                        padding: 0 10px;
+                        cursor: pointer;
+                        &:hover{
+                            color: blue;
+                            border-bottom: 2px solid $border-hover;
                         }
-                    } 
-                }   
+                        div{
+                            padding: 5px 10px ;
+                        }
+                        a{
+                            display: block;
+                            display: inline-block;
+                            text-decoration: none;
+                            padding: 5px 10px;
+                            color: $button-font-color;
+                            background-color: $bg-button-primary;
+                            border-radius: 20px;
+                        }
+                    }
+                } 
+            }   
         }
     }
 </style>

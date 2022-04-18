@@ -26,10 +26,11 @@ export default {
         display: flex;
         flex-direction: column;
         background-color: $bg-white;
-        box-shadow: 0 0 6px;
+        box-shadow: 3px 2px 3px 2px;
         position: absolute;
         left: 0;
         right: 0;
+        top: 75px;
         ul{
             border-bottom: 1px solid black;
             padding: 10px 0;
