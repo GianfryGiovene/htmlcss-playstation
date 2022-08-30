@@ -1,5 +1,5 @@
 /* GENERICS */
-/* bootstrap */
+/* bootstrap 
 [class*="container"] {
   border: 1px dashed black;
 }
@@ -11,9 +11,11 @@
 [class*="row"] {
   border: 1px dashed pink;
 }
-/* / bootstrap */
-/* / GENERICS */
+ / bootstrap */
+ 
+/* / GENERICS 
 
 .debug-img {
   border: 1px solid blue;
 }
+*/
